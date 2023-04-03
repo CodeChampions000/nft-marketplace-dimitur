@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+$purple: #a259ff;
+$darkgrey: #2b2b2b;
+$lightgrey: #3b3b3b;
+$spacemono: "Space Mono", monospace;
+$worksans: "Work Sans", sans-serif;
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: $darkgrey;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  background-color: $purple;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: $worksans;
+  font-size: 16px;
+  display: flex;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  padding: 36px 50px;
+  .nav-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 12px;
+    overflow: hidden;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 32px;
+    }
+    h2 {
+      color: white;
+      padding-left: 12px;
+      font-family: $spacemono;
+    }
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: $worksans;
+    }
+    .signupbtn {
+      padding: 20px 30px;
+      gap: 12px;
+      img {
+        width: 20px;
+      }
+    }
+  }
+}
+
+.discover-section {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  .discover-info {
+    h2 {
+      font-size: 68px;
+      font-family: $worksans;
+      font-weight: 600;
+      color: white;
+      padding-bottom: 20px;
+    }
+    span {
+      font-size: 22px;
+      font-family: $worksans;
+      font-weight: 400;
+      color: white;
+    }
+    button {
+      padding: 20px 50px;
+      margin-top: 30px;
+      img {
+        width: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+
+  .discover-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 30px;
+    h1 {
+      font-size: 28px;
+      font-family: $spacemono;
+      font-weight: 700;
+      color: white;
+    }
+    p {
+      font-size: 24px;
+      font-family: $worksans;
+      color: white;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
+
+.discover-img {
+  display: flex;
+  flex-direction: column;
+  background-color: $lightgrey;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  img {
+    width: 530px;
+  }
+  .discovercard-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 22px 20px;
+    row-gap: 10px;
+    h2 {
+      font-family: $worksans;
+      font-weight: 600;
+      font-size: 22px;
+      color: white;
+    }
+  }
+  .discovercard-pfp {
+    display: flex;
+    column-gap: 12px;
+    img {
+      width: 20px;
+    }
+    h2 {
+      font-family: $worksans;
+      font-weight: 300;
+      font-size: 16px;
+    }
+  }
+}
+
+.trending-collection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  h2 {
+    font-family: $worksans;
+    font-weight: 600;
+    font-size: 38px;
+    color: white;
+    padding-bottom: 10px;
+  }
+  p {
+    font-family: $worksans;
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+  }
+  .trndg-card {
+    display: flex;
+    flex-direction: column;
+    .trndg-card-collection {
+      display: flex;
+    }
+    .big-trndg-card {
+      justify-content: center;
+      align-items: center;
+      padding-top: 60px;
+      img {
+        width: 330px;
+      }
+    }
+    .small-trndg-card {
+      display: flex;
+      padding: 15px 0px;
+      gap: 15px;
+      img {
+        width: 100px;
+      }
+    }
+    .trendingcards-title {
+      h2 {
+        font-family: $worksans;
+        font-weight: 600;
+        font-size: 22px;
+      }
+    }
+    .trendingcards-pfp {
+      display: flex;
+      img {
+        width: 28px;
+        padding-right: 12px;
+      }
+      h2 {
+        font-family: $worksans;
+        font-weight: 300;
+        font-size: 16px;
+      }
+    }
+  }
+}
