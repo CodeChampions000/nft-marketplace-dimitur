@@ -183,6 +183,7 @@ nav {
 .trending-collection {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding-top: 80px;
   h2 {
     font-family: $worksans;
@@ -197,11 +198,17 @@ nav {
     font-size: 22px;
     color: white;
   }
-  .trndg-card {
+  .trndg-card-collection {
     display: flex;
-    flex-direction: column;
-    .trndg-card-collection {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 188px;
+    .trndg-card {
       display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
     }
     .big-trndg-card {
       justify-content: center;
@@ -238,5 +245,65 @@ nav {
         font-size: 16px;
       }
     }
+  }
+}
+
+.top-creators {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .topcreators-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    h2 {
+      font-family: $worksans;
+      font-weight: 600;
+      font-size: 38px;
+      color: white;
+      padding-bottom: 10px;
+    }
+    p {
+      font-family: $worksans;
+      font-weight: 300;
+      font-size: 22px;
+      color: white;
+    }
+  }
+  .rankings-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    margin-top: 156px;
+    button {
+      background-color: transparent;
+      border: 1px solid $purple;
+      border-radius: 20px;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      font-family: $worksans;
+      font-size: 16px;
+      display: flex;
+      cursor: pointer;
+      padding: 20px 50px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: $purple;
+        transition: all 0.2s ease-in-out;
+      }
+      img {
+        padding-right: 12px;
+        width: 20px;
+      }
+    }
+  }
+}
+
+.creator-cards {
+  .card {
   }
 }

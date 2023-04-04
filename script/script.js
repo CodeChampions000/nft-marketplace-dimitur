@@ -25,7 +25,7 @@ let categories = [
   },
 ];
 
-document.querySelector(".trndg-card").innerHTML = categories
+document.querySelector(".trndg-card-collection").innerHTML = categories
   .map(
     (cards) =>
       `
