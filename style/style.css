@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   width: 100%;
   display: flex;
   margin: auto;
@@ -176,6 +176,7 @@ nav .nav-links .signupbtn img {
   flex-direction: column;
   justify-content: space-between;
   padding-top: 80px;
+  width: 100%;
 }
 .trending-collection h2 {
   font-family: "Work Sans", sans-serif;
@@ -194,9 +195,6 @@ nav .nav-links .signupbtn img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  -moz-column-gap: 188px;
-       column-gap: 188px;
 }
 .trending-collection .trndg-card-collection .trndg-card {
   display: flex;
@@ -291,4 +289,123 @@ nav .nav-links .signupbtn img {
 .top-creators .rankings-btn button img {
   padding-right: 12px;
   width: 20px;
+}
+
+.avatar-cards {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 160px;
+}
+.avatar-cards .creator-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-cards .creator-cards .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+}
+.avatar-cards .creator-cards .card .cardnum {
+  display: flex;
+  position: absolute;
+}
+.avatar-cards .creator-cards .card .cardnum h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px 20px;
+  background-color: #2b2b2b;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 16px;
+  color: #858584;
+}
+.avatar-cards .creator-cards .card .cardinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.avatar-cards .creator-cards .card .cardinfo img {
+  width: 120px;
+}
+.avatar-cards .creator-cards .card .cardinfo h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  padding-top: 20px;
+}
+.avatar-cards .creator-cards .card .cardinfo .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.avatar-cards .creator-cards .card .cardinfo .price p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #858584;
+}
+.avatar-cards .creator-cards .card .cardinfo .price span {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+}
+
+.browse-categories {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.browse-categories .browse-title {
+  margin-bottom: 60px;
+}
+.browse-categories .browse-title h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: white;
+}
+.browse-categories .browse-categories-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.browse-categories .browse-categories-cards .browse-card {
+  position: relative;
+  background-color: #3b3b3b;
+  border-radius: 25px;
+}
+.browse-categories .browse-categories-cards .browse-card img {
+  width: 300px;
+}
+.browse-categories .browse-categories-cards .browse-card .icon-image {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  top: 30%;
+  left: 35%;
+}
+.browse-categories .browse-categories-cards .browse-card .icon-image img {
+  width: 100px;
+}
+.browse-categories .browse-categories-cards .browse-card h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  padding: 20px 25px;
 }/*# sourceMappingURL=style.css.map */
