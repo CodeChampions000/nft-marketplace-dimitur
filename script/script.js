@@ -197,3 +197,60 @@ document.querySelector(".browse-categories-cards").innerHTML = categoriescards
     `
   )
   .join(" ");
+
+let placeholdercards = [
+  {
+    img: "./images/homepage/Placeholders/Placeholder1.png",
+    pfpimg: "./images/homepage/pfps/placeholderpfps/woman1.png",
+    pfpname: "MoonDancer",
+    title: "Distant Galaxy",
+  },
+  {
+    img: "./images/homepage/Placeholders/Placeholder1.png",
+    pfpimg: "./images/homepage/pfps/placeholderpfps/woman1.png",
+    pfpname: "NebulaKid",
+    title: "Life On Edena",
+  },
+  {
+    img: "./images/homepage/Placeholders/Placeholder1.png",
+    pfpimg: "./images/homepage/pfps/placeholderpfps/woman1.png",
+    pfpname: "Spaceone",
+    title: "AstroFiction",
+  },
+];
+
+document.querySelector(".placeholder-cards").innerHTML = placeholdercards
+  .map(
+    (placeholdercard) =>
+      `
+      <div class="placeholder-card">
+          <img
+            src="${placeholdercard.img}"
+            alt="placeholderimg1"
+          />
+          <div class="upper-info">
+            <h2>${placeholdercard.title}</h2>
+            <div class="MoonDancer-pfp-title">
+              <img
+                src="${placeholdercard.pfpimg}"
+                alt="womanpfp1"
+              />
+              <p>${placeholdercard.pfpname}</p>
+            </div>
+          </div>
+          <div class="lower-info">
+            <div class="price-section">
+              <div class="left-side">
+                <h2>Price</h2>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="right-side">
+                <h2>Highest Bid</h2>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    `
+  )
+  .join(" ");

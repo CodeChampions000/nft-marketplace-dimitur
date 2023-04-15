@@ -421,3 +421,134 @@ nav {
     }
   }
 }
+
+.placeholddiscover {
+  display: flex;
+  flex-direction: column;
+  .placeholders {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .title-placeholder {
+      display: flex;
+      flex-direction: column;
+      padding: 60px 0px;
+      h2 {
+        font-family: $worksans;
+        font-weight: 600;
+        font-size: 38px;
+        color: white;
+      }
+      p {
+        font-family: $worksans;
+        font-size: 22px;
+        color: white;
+      }
+    }
+    .btn-placeholders {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        background-color: transparent;
+        border: 1px solid $purple;
+        border-radius: 20px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-family: $worksans;
+        font-size: 16px;
+        display: flex;
+        cursor: pointer;
+        padding: 20px 50px;
+        img {
+          padding-right: 12px;
+          width: 20px;
+        }
+      }
+    }
+  }
+  .placeholder-cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .placeholder-card {
+      display: flex;
+      flex-direction: column;
+      background-color: $lightgrey;
+      width: 330px;
+      border-radius: 20px;
+      img {
+        width: 330px;
+      }
+      .upper-info {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+        h2 {
+          font-family: $worksans;
+          font-weight: 600;
+          font-size: 22px;
+          color: white;
+        }
+        .MoonDancer-pfp-title {
+          display: flex;
+          flex-direction: row;
+          gap: 12px;
+          padding-top: 6px;
+          img {
+            width: 24px;
+          }
+          p {
+            font-family: $spacemono;
+            font-weight: 300;
+            font-size: 16px;
+            color: white;
+          }
+        }
+      }
+      .lower-info {
+        padding: 20px 30px;
+        .price-section {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          .left-side {
+            h2 {
+              font-family: $spacemono;
+              font-weight: 300;
+              font-size: 12px;
+              color: $verylightrey;
+            }
+            p {
+              font-family: $spacemono;
+              font-weight: 300;
+              font-size: 18px;
+              color: white;
+              padding-top: 8px;
+            }
+          }
+          .right-side {
+            h2 {
+              display: flex;
+              align-items: end;
+              justify-content: end;
+              font-family: $spacemono;
+              font-weight: 300;
+              font-size: 12px;
+              color: $verylightrey;
+            }
+            p {
+              font-family: $spacemono;
+              font-weight: 300;
+              font-size: 18px;
+              color: white;
+              padding-top: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

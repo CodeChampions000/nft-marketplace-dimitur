@@ -408,4 +408,131 @@ nav .nav-links .signupbtn img {
   font-size: 22px;
   color: white;
   padding: 20px 25px;
+}
+
+.placeholddiscover {
+  display: flex;
+  flex-direction: column;
+}
+.placeholddiscover .placeholders {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.placeholddiscover .placeholders .title-placeholder {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px;
+}
+.placeholddiscover .placeholders .title-placeholder h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: white;
+}
+.placeholddiscover .placeholders .title-placeholder p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+.placeholddiscover .placeholders .btn-placeholders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placeholddiscover .placeholders .btn-placeholders button {
+  background-color: transparent;
+  border: 1px solid #a259ff;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  cursor: pointer;
+  padding: 20px 50px;
+}
+.placeholddiscover .placeholders .btn-placeholders button img {
+  padding-right: 12px;
+  width: 20px;
+}
+.placeholddiscover .placeholder-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.placeholddiscover .placeholder-cards .placeholder-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #3b3b3b;
+  width: 330px;
+  border-radius: 20px;
+}
+.placeholddiscover .placeholder-cards .placeholder-card img {
+  width: 330px;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .upper-info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .upper-info h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .upper-info .MoonDancer-pfp-title {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding-top: 6px;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .upper-info .MoonDancer-pfp-title img {
+  width: 24px;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .upper-info .MoonDancer-pfp-title p {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .lower-info {
+  padding: 20px 30px;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .lower-info .price-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .lower-info .price-section .left-side h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 12px;
+  color: #858584;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .lower-info .price-section .left-side p {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  padding-top: 8px;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .lower-info .price-section .right-side h2 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 12px;
+  color: #858584;
+}
+.placeholddiscover .placeholder-cards .placeholder-card .lower-info .price-section .right-side p {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  padding-top: 8px;
 }/*# sourceMappingURL=style.css.map */
