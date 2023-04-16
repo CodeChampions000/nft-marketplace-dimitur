@@ -425,6 +425,7 @@ nav {
 .placeholddiscover {
   display: flex;
   flex-direction: column;
+  padding-bottom: 80px;
   .placeholders {
     display: flex;
     justify-content: space-between;
@@ -550,5 +551,96 @@ nav {
         }
       }
     }
+  }
+}
+
+.auction {
+  display: flex;
+  padding: 20px 30px;
+  .auction-info {
+    justify-content: space-between;
+    width: 100%;
+    .auction-upper-info {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 26px;
+      h2 {
+        font-family: $worksans;
+        font-weight: 600;
+        font-size: 22px;
+        color: white;
+      }
+      .MoonDancer-pfp-title {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        padding-top: 6px;
+        img {
+          width: 24px;
+        }
+        p {
+          font-family: $spacemono;
+          font-weight: 300;
+          font-size: 16px;
+          color: white;
+        }
+      }
+    }
+    .auction-lower-info {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-bottom: 26px;
+      .price-section {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .left-side {
+          h2 {
+            font-family: $spacemono;
+            font-weight: 300;
+            font-size: 12px;
+            color: $verylightrey;
+          }
+          p {
+            font-family: $spacemono;
+            font-weight: 300;
+            font-size: 18px;
+            color: white;
+            padding-top: 8px;
+          }
+        }
+        .right-side {
+          h2 {
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            font-family: $spacemono;
+            font-weight: 300;
+            font-size: 12px;
+            color: $verylightrey;
+          }
+          p {
+            font-family: $spacemono;
+            font-weight: 300;
+            font-size: 18px;
+            color: white;
+            padding-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.nft-hightlight {
+  display: flex;
+  background-image: url("./images/homepage/BigShroomPic.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  .nft-hightlight-section {
+    display: flex;
+    flex-direction: column;
   }
 }

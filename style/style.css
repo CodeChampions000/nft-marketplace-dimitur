@@ -413,6 +413,7 @@ nav .nav-links .signupbtn img {
 .placeholddiscover {
   display: flex;
   flex-direction: column;
+  padding-bottom: 80px;
 }
 .placeholddiscover .placeholders {
   display: flex;
@@ -535,4 +536,91 @@ nav .nav-links .signupbtn img {
   font-size: 18px;
   color: white;
   padding-top: 8px;
+}
+
+.auction {
+  display: flex;
+  padding: 20px 30px;
+}
+.auction .auction-info {
+  justify-content: space-between;
+  width: 100%;
+}
+.auction .auction-info .auction-upper-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 26px;
+}
+.auction .auction-info .auction-upper-info h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+.auction .auction-info .auction-upper-info .MoonDancer-pfp-title {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding-top: 6px;
+}
+.auction .auction-info .auction-upper-info .MoonDancer-pfp-title img {
+  width: 24px;
+}
+.auction .auction-info .auction-upper-info .MoonDancer-pfp-title p {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+}
+.auction .auction-info .auction-lower-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 26px;
+}
+.auction .auction-info .auction-lower-info .price-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.auction .auction-info .auction-lower-info .price-section .left-side h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 12px;
+  color: #858584;
+}
+.auction .auction-info .auction-lower-info .price-section .left-side p {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  padding-top: 8px;
+}
+.auction .auction-info .auction-lower-info .price-section .right-side h2 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 12px;
+  color: #858584;
+}
+.auction .auction-info .auction-lower-info .price-section .right-side p {
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  padding-top: 8px;
+}
+
+.nft-hightlight {
+  display: flex;
+  background-image: url("./images/homepage/BigShroomPic.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.nft-hightlight .nft-hightlight-section {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
