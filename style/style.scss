@@ -478,7 +478,6 @@ nav {
       display: flex;
       flex-direction: column;
       background-color: $lightgrey;
-      width: 330px;
       border-radius: 20px;
       img {
         width: 330px;
@@ -633,14 +632,76 @@ nav {
   }
 }
 
-.nft-hightlight {
-  display: flex;
-  background-image: url("./images/homepage/BigShroomPic.png");
+.nft-highlight {
+  background-image: url("BigShroomPic.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  height: 50vh;
   .nft-hightlight-section {
     display: flex;
+    .nft-img {
+      display: flex;
+    }
+  }
+}
+
+.how-it-works-section {
+  display: flex;
+  width: 100%;
+  padding-bottom: 140px;
+  .how-it-works {
+    display: flex;
     flex-direction: column;
+    .how-it-info {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 48px;
+      gap: 10px;
+      h2 {
+        font-family: $worksans;
+        font-weight: 600;
+        font-size: 38px;
+        color: white;
+      }
+      p {
+        font-family: $worksans;
+        font-weight: 400;
+        font-size: 22px;
+        color: white;
+      }
+    }
+    .how-it-cards {
+      display: flex;
+      width: 134%;
+      justify-content: space-between;
+      .how-it-card {
+        display: flex;
+        background-color: $lightgrey;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 30px;
+        img {
+          width: 250px;
+        }
+        h2 {
+          font-family: $worksans;
+          font-weight: 600;
+          font-size: 22px;
+          color: white;
+          text-align: center;
+          padding-bottom: 10px;
+        }
+        p {
+          font-family: $worksans;
+          font-weight: 400;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding-bottom: 30px;
+        }
+      }
+    }
   }
 }

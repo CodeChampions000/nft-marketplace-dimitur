@@ -468,7 +468,6 @@ nav .nav-links .signupbtn img {
   display: flex;
   flex-direction: column;
   background-color: #3b3b3b;
-  width: 330px;
   border-radius: 20px;
 }
 .placeholddiscover .placeholder-cards .placeholder-card img {
@@ -613,14 +612,76 @@ nav .nav-links .signupbtn img {
   padding-top: 8px;
 }
 
-.nft-hightlight {
-  display: flex;
-  background-image: url("./images/homepage/BigShroomPic.png");
+.nft-highlight {
+  background-image: url("BigShroomPic.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  height: 50vh;
 }
-.nft-hightlight .nft-hightlight-section {
+.nft-highlight .nft-hightlight-section {
+  display: flex;
+}
+.nft-highlight .nft-hightlight-section .nft-img {
+  display: flex;
+}
+
+.how-it-works-section {
+  display: flex;
+  width: 100%;
+  padding-bottom: 140px;
+}
+.how-it-works-section .how-it-works {
   display: flex;
   flex-direction: column;
+}
+.how-it-works-section .how-it-works .how-it-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 48px;
+  gap: 10px;
+}
+.how-it-works-section .how-it-works .how-it-info h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: white;
+}
+.how-it-works-section .how-it-works .how-it-info p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+}
+.how-it-works-section .how-it-works .how-it-cards {
+  display: flex;
+  width: 134%;
+  justify-content: space-between;
+}
+.how-it-works-section .how-it-works .how-it-cards .how-it-card {
+  display: flex;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+.how-it-works-section .how-it-works .how-it-cards .how-it-card img {
+  width: 250px;
+}
+.how-it-works-section .how-it-works .how-it-cards .how-it-card h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.how-it-works-section .how-it-works .how-it-cards .how-it-card p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */

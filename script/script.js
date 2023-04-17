@@ -254,3 +254,42 @@ document.querySelector(".placeholder-cards").innerHTML = placeholdercards
     `
   )
   .join(" ");
+
+let howitworkscards = [
+  {
+    img: "./images/homepage/CircleIcon1.png",
+    title: "Setup Your wallet",
+    info: `Set up your wallet of choice. <br />
+    Connect it to the Animarket by <br />
+    clicking the wallet icon in the top <br />
+    right corner.`,
+  },
+  {
+    img: "./images/homepage/CircleIcon1.png",
+    title: "Create Collection",
+    info: `Upload your work and setup your <br/ > 
+    collection. Add a description, <br/ > 
+    social links and floor price.`,
+  },
+  {
+    img: "./images/homepage/CircleIcon1.png",
+    title: "Start Earning",
+    info: `Choose between auctions and <br/ >
+     fixed-price listings. Start earning <br/ >
+      by selling your NFTs or trading <br/ >
+      others.`,
+  },
+];
+
+document.querySelector(".how-it-cards").innerHTML = howitworkscards
+  .map(
+    (howitworkscard) =>
+      `
+      <div class="how-it-card">
+            <img src="${howitworkscard.img}" alt="CircleIcon1" />
+            <h2>${howitworkscard.title}</h2>
+            <p>${howitworkscard.info}</p>
+          </div>
+    `
+  )
+  .join(" ");
