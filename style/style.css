@@ -684,4 +684,80 @@ nav .nav-links .signupbtn img {
   color: white;
   text-align: center;
   padding-bottom: 30px;
+}
+
+.weekly-digest-container {
+  display: flex;
+  margin-bottom: 80px;
+}
+.weekly-digest-container .weekly-digest {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 60px;
+  border-radius: 20px;
+}
+.weekly-digest-container .weekly-digest .left-weekly img {
+  width: 426px;
+}
+.weekly-digest-container .weekly-digest .right-weekly {
+  display: flex;
+  flex-direction: column;
+}
+.weekly-digest-container .weekly-digest .right-weekly h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: white;
+  padding-bottom: 10px;
+}
+.weekly-digest-container .weekly-digest .right-weekly p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+}
+.weekly-digest-container .weekly-digest .right-weekly form {
+  display: flex;
+  margin-top: 50px;
+}
+.weekly-digest-container .weekly-digest .right-weekly form .email {
+  display: flex;
+  align-items: center;
+  padding: 18px 0px 16px 20px;
+  gap: 12px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  border-radius: 20px 0 0 20px;
+  border: none;
+}
+.weekly-digest-container .weekly-digest .right-weekly form button {
+  display: flex;
+  position: absolute;
+  right: 18%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 50px;
+  gap: 12px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background-color: #a259ff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.weekly-digest-container .weekly-digest .right-weekly form button img {
+  width: 24px;
+}
+.weekly-digest-container .weekly-digest .right-weekly form button img p {
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
