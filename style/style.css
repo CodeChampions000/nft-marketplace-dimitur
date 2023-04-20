@@ -689,6 +689,7 @@ nav .nav-links .signupbtn img {
 .weekly-digest-container {
   display: flex;
   margin-bottom: 80px;
+  width: 100%;
 }
 .weekly-digest-container .weekly-digest {
   display: flex;
@@ -721,43 +722,166 @@ nav .nav-links .signupbtn img {
 .weekly-digest-container .weekly-digest .right-weekly form {
   display: flex;
   margin-top: 50px;
+  border-radius: 20px;
+  background-color: white;
 }
 .weekly-digest-container .weekly-digest .right-weekly form .email {
   display: flex;
-  align-items: center;
-  padding: 18px 0px 16px 20px;
-  gap: 12px;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  border-radius: 20px 0 0 20px;
   border: none;
+  border-radius: 20px;
+  padding: 20px;
 }
 .weekly-digest-container .weekly-digest .right-weekly form button {
   display: flex;
-  position: absolute;
-  right: 18%;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding: 12px 50px;
-  gap: 12px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   background-color: #a259ff;
   border: none;
   border-radius: 20px;
+  width: 220px;
+  height: 60px;
   cursor: pointer;
 }
 .weekly-digest-container .weekly-digest .right-weekly form button img {
   width: 24px;
+  padding-right: 14px;
 }
 .weekly-digest-container .weekly-digest .right-weekly form button img p {
+  text-align: center;
   justify-content: center;
   align-items: center;
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  background-color: #3b3b3b;
+}
+footer .footer-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  padding: 40px 114px;
+}
+footer .footer-section .left-footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-section .left-footer .footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+footer .footer-section .left-footer .footer-logo img {
+  width: 32px;
+}
+footer .footer-section .left-footer .footer-logo p {
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+footer .footer-section .left-footer .left-footer-info {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-section .left-footer .left-footer-info h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #858584;
+  padding-bottom: 20px;
+}
+footer .footer-section .left-footer .left-footer-info p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #858584;
+  padding-bottom: 15px;
+}
+footer .footer-section .left-footer .footer-icons {
+  display: flex;
+  gap: 10px;
+}
+footer .footer-section .left-footer .footer-icons img {
+  width: 32px;
+}
+footer .footer-section .middle-footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-section .middle-footer h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  padding-bottom: 26px;
+}
+footer .footer-section .middle-footer a {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #858584;
+  padding: 10px 0;
+  text-decoration: none;
+}
+footer .footer-section .right-footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-section .right-footer h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  padding-bottom: 26px;
+}
+footer .footer-section .right-footer p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #858584;
+}
+footer .footer-section .right-footer form {
+  display: flex;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: white;
+}
+footer .footer-section .right-footer form .email {
+  display: flex;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+footer .footer-section .right-footer form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a259ff;
+  border: none;
+  border-radius: 20px;
+  width: 262px;
+  height: 60px;
+  cursor: pointer;
+}
+footer .footer-section .right-footer form button img {
+  width: 24px;
+  padding-right: 14px;
+}
+footer .footer-section .right-footer form button span {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
   color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -706,77 +706,201 @@ nav {
   }
 }
 
-.weekly-digest-container{
+.weekly-digest-container {
   display: flex;
   margin-bottom: 80px;
-  .weekly-digest{
+  width: 100%;
+  .weekly-digest {
     display: flex;
     justify-content: space-between;
     width: 100%;
     background-color: #3b3b3b;
     padding: 60px;
     border-radius: 20px;
-    .left-weekly{
-      img{
+    .left-weekly {
+      img {
         width: 426px;
       }
     }
-    .right-weekly{
+    .right-weekly {
       display: flex;
       flex-direction: column;
-      h2{
+      h2 {
         font-family: $worksans;
         font-weight: 600;
         font-size: 38px;
         color: white;
         padding-bottom: 10px;
       }
-      p{
+      p {
         font-family: $worksans;
         font-weight: 400;
         font-size: 22px;
         color: white;
       }
-      form{
+      form {
         display: flex;
         margin-top: 50px;
-        .email{
+        border-radius: 20px;
+        background-color: white;
+        .email {
           display: flex;
-          align-items: center;
-          padding: 18px 0px 16px 20px;
-          gap: 12px;
-          flex: none;
-          order: 1;
-          align-self: stretch;
-          flex-grow: 0;
-          border-radius: 20px 0 0 20px;
           border: none;
+          border-radius: 20px;
+          padding: 20px;
         }
-        button{
+        button {
           display: flex;
-          position: absolute;
-          right: 18%;
-          justify-content: flex-end;
+          justify-content: center;
           align-items: center;
-          padding: 12px 50px;
-          gap: 12px;
-          flex: none;
-          order: 1;
-          flex-grow: 0;
           background-color: $purple;
           border: none;
           border-radius: 20px;
+          width: 220px;
+          height: 60px;
           cursor: pointer;
-          img{
+          img {
             width: 24px;
-            p{
+            padding-right: 14px;
+            p {
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+              font-family: $worksans;
+              font-weight: 600;
+              font-size: 16px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  background-color: $lightgrey;
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 40px 114px;
+    .left-footer {
+      display: flex;
+      flex-direction: column;
+      .footer-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        img {
+          width: 32px;
+        }
+        p {
+          font-family: $spacemono;
+          font-size: 20px;
+          font-weight: 600;
+          color: white;
+        }
+      }
+      .left-footer-info {
+        display: flex;
+        flex-direction: column;
+        h2 {
+          font-family: $worksans;
+          font-weight: 400;
+          font-size: 16px;
+          color: $verylightrey;
+          padding-bottom: 20px;
+        }
+        p {
+          font-family: $worksans;
+          font-weight: 400;
+          font-size: 16px;
+          color: $verylightrey;
+          padding-bottom: 15px;
+        }
+      }
+      .footer-icons {
+        display: flex;
+        gap: 10px;
+        img {
+          width: 32px;
+        }
+      }
+    }
+    .middle-footer {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-family: $spacemono;
+        font-weight: 700;
+        font-size: 22px;
+        color: white;
+        padding-bottom: 26px;
+      }
+      a {
+        font-family: $worksans;
+        font-weight: 400;
+        font-size: 16px;
+        color: $verylightrey;
+        padding: 10px 0;
+        text-decoration: none;
+      }
+    }
+    .right-footer {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-family: $spacemono;
+        font-weight: 700;
+        font-size: 22px;
+        color: white;
+        padding-bottom: 26px;
+      }
+      p {
+        font-family: $worksans;
+        font-weight: 400;
+        font-size: 16px;
+        color: $verylightrey;
+      }
+      form {
+        display: flex;
+        margin-top: 50px;
+        border-radius: 20px;
+        background-color: white;
+        .email {
+          display: flex;
+          border: none;
+          border-radius: 20px;
+          padding: 20px;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: $purple;
+          border: none;
+          border-radius: 20px;
+          width: 262px;
+          height: 60px;
+          cursor: pointer;
+          img {
+            width: 24px;
+            padding-right: 14px;
+          }
+          span {
+            text-align: center;
             justify-content: center;
             align-items: center;
             font-family: $worksans;
-            font-weight: 600;
-            font-size: 16px;
+            font-weight: 400;
+            font-size: 22px;
             color: white;
-            }
           }
         }
       }
